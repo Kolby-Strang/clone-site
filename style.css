@@ -1,0 +1,56 @@
+header {
+    border-bottom: solid 8px lightgrey;
+}
+
+img {
+    max-height: 80vh;
+    object-fit: cover;
+}
+
+
+
+.hero {
+    background-image: url(https://static.wixstatic.com/media/044396_80764eb43fc74227ab6f304f0eea0ebb~mv2.jpg/v1/fill/w_403,h_300,al_c,lg_1,q_80,enc_auto/044396_80764eb43fc74227ab6f304f0eea0ebb~mv2.jpg);
+    border-bottom: solid 8px lightgrey;
+    background-size: cover;
+}
+
+.hero-text {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.panels-container {
+    background-image: url(https://img.freepik.com/premium-vector/dotted-seamless-pattern-polka-dot-simple-white-background_547648-1971.jpg?w=2000);
+    background-size: contain;
+}
+
+.panels-container>div>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    color: white;
+    width: 13em;
+    height: 13em;
+    font-weight: bold;
+}
+
+.panels-container>div>p {
+    width: 13em;
+}
+
+.bg-pine {
+    background-image: url(https://images.unsplash.com/photo-1564906645962-0767089c66bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
+}
+
+.bg-elk {
+    background-image: url(https://images.unsplash.com/photo-1603486001734-7d92cedd1d33?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1964&q=80);
+}
+
+.bg-yellow {
+    background-image: url(https://images.unsplash.com/photo-1607513746994-51f730a44832?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1887&q=80);
+}
